@@ -1,0 +1,68 @@
+Pattern 1: Program to print half pyramid using *
+
+public class Main 
+{
+    public static void main(String[] args) 
+    {
+        int k=1;
+        for(int i=1;i<=5;i++)
+        {
+            for(int j=1;j<=k;j++)
+            {
+                System.out.print("* ");
+            }
+            k=k+2;
+            System.out.println();
+        }
+    }
+}
+
+* 
+* * * 
+* * * * * 
+* * * * * * * 
+* * * * * * * * * 
+
+Pattern 2: Program to print half pyramid a using numbers
+
+{
+    public static void main(String[] args) 
+    {
+        for(int i=1;i<=5;i++)
+        {
+            for(int j=1;j<=i;j++)
+            {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+Pattern 3: Program to print half pyramid using alphabets
+
+public class Formation_GitHub 
+{
+	public static void main(String[] args) 
+	    {
+	        for(int i=1;i<=5;i++)
+	        {
+	        	int alpha=65;
+	        	for(int j=1;j<=i;j++)
+	        	{
+	        		System.out.print((char)alpha + " ");
+	        		alpha++;
+	        	}
+	        	System.out.println();
+	        }
+	    }
+
+}
+
+
