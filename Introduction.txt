@@ -1,0 +1,7 @@
+Welcome.
+
+This is a repository for Java created by ButCode.
+
+You can learn everything from here, take codes from here, learn and make something new of your own - whatever you like.
+
+Best Of Luck.
